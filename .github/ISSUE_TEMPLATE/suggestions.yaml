@@ -1,0 +1,28 @@
+name: Suggestions
+description: File a suggestion!
+title: "[Jellyfin Suggestion]: "
+labels: [ enhancement ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Prior to filling out this report, please make sure of the following:**
+        - You checked the previous issues to see if it's not a duplicate.
+  - type: dropdown
+    id: media-type
+    attributes:
+      label: Type of Media
+      description: Is this media a movie or a TV Series?
+      options:
+        - "Movie"
+        - "TV Series"
+    validations:
+      required: true
+  - type: input
+    id: media-title
+    attributes:
+      label: Title
+      description: What is the name of the media?
+      placeholder: "Deadpool 2"
+    validations:
+      required: true

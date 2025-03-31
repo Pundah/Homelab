@@ -1,0 +1,56 @@
+name: Jellyfin Error Report
+description: File a error report
+title: "[Jellyfin Error]: "
+labels: [ bug ]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Prior to filling out this report, please make sure of the following:**
+        - You have tried refreshing your browser.
+        - You have an updated version of your browser.
+        - You have tried on multiple browsers.
+        - You have tried on multiple devices.
+        - You checked the previous issues to see if it's not a duplicate.
+  - type: dropdown
+    id: fixes
+    attributes:
+      label: Possible Fixes
+      description: Have you tried the above mentioned points?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  - type: input
+    id: time-of-error
+    attributes:
+      label: Time of Error
+      description: What time did this error happen?
+      placeholder: "10:30 PM (MST)"
+    validations:
+      required: true
+  - type: input
+    id: browser-version
+    attributes:
+      label: Browser Name
+      description: What is the name of your browser?
+      placeholder: duckduckgo, chrome, firefox, ect.
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Please give a thorough explanation of what happened. Attach/Link relevant images/files in relation to the issue!
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: input
+    id: f12-log
+    attributes:
+      label: F12 Log
+      description: Please upload your F12 log to https://gist.github.com/ and leave the link here. Located in F12>Console
+      placeholder: https://gist.github.com/
+    validations:
+      required: true

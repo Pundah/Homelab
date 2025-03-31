@@ -1,7 +1,4 @@
 
-![Logo](https://github.com/veteranbv/Homelab-Blueprint/raw/master/visualizations/homelab_install.jpeg)
-
-
 # Pundah's Homelab
 
 ## What is a homelab?
@@ -19,6 +16,18 @@ A homelab can include servers, storage devices, and networking equipment, and is
 
 Homelabs can vary in complexity, from a simple setup using a single machine or a few virtualized environments, to more advanced systems involving multiple physical servers, networking gear, and distributed storage solutions. The primary goal is hands-on experience with IT systems, providing practical knowledge that can be applied in professional environments.
 
+![Logo](https://github.com/veteranbv/Homelab-Blueprint/raw/master/visualizations/homelab_install.jpeg)
+
+## Homelab Hardware:
+#### Homelab Main Rack:
+- Oribos (Dell T440)
+- Negrand (HP Z450)
+- Argus (Dell T340)
+#### Homelab RPI Rack:
+- Felwood (RPI 5)
+- MoonGuard (RPI 4)
+- Placeholder (RPI 4)
+- Placeholder ( RPI 4)
 ## Homelab Layout:
 ### Oribos (Dell T440)
     - Azuriom
@@ -44,3 +53,5 @@ Homelabs can vary in complexity, from a simple setup using a single machine or a
 ### Felwood (RPI 5)
     
 ### MoonGuard (RPI 4)
+
+
