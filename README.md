@@ -21,7 +21,7 @@ Homelabs can vary in complexity, from a simple setup using a single machine or a
 ## Homelab Hardware:
 #### Homelab Main Rack:
 - Oribos (Dell T440)
-- Negrand (HP Z450)
+- Negrand (HP Z220)
 - Argus (Dell T340)
 #### Homelab RPI Rack:
 - Felwood (RPI 5)
@@ -36,12 +36,12 @@ Homelabs can vary in complexity, from a simple setup using a single machine or a
     - Uptime Kuma
     - Dashy
     - Rustdesk
-### Negrand (HP Z???)
+### Negrand (HP Z220)
     - Member-Couter (BOT)
     - Jellyfin
     - Docker
     - Cockpit
-### Argus (Dell T???)
+### Argus (Dell T330)
     - Redbot
     - Postgresql
     - Support-Tickets (BOT)
